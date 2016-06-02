@@ -13,6 +13,17 @@ Wrapper for PowerCash API.
 ```[javascript]
 var powercash = require('powercash-node');
 
-//Provide an instantiation with as a global, so you can use anywhere in your APP
+//Instantiate as a global, so you can use anywhere in your APP
 PowerCash = new powercash({type:'auth_type', name:'type_of_authoryzation', key:'your_key_or_token' }, { customerId: '573e12asda9eab3b75a17' });
+```
+3. Consume the API
+```[javascript]
+
+PowerCash.employee.list(function(err, data){
+  if(err)
+    throw err;
+
+    console.log("PowerCash's response: ", data);
+  })
+
 ```
