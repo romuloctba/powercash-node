@@ -1,0 +1,3 @@
+module.exports = {
+  "apiURL": "http://security.api.powercash.com.br/api/"
+}
