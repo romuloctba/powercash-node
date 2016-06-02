@@ -14,7 +14,7 @@ Wrapper for PowerCash API.
 var powercash = require('powercash-node');
 
 //Instantiate as a global, so you can use anywhere in your APP
-PowerCash = new powercash({type:'auth_type', name:'type_of_authoryzation', key:'your_key_or_token' }, { customerId: '573e12asda9eab3b75a17' });
+PowerCash = new powercash({type:'auth_type', name:'type_of_authorization', key:'your_key_or_token' }, { customerId: '573e12asda9eab3b75a17' });
 ```
 3. Consume the API
 ```[javascript]
